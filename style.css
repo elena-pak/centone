@@ -98,3 +98,8 @@ a{
 }
 
 
+@media (max-width: 890px) {
+    .list{
+        grid-template-columns: 1fr;
+    }
+}
