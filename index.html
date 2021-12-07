@@ -7,15 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="js.js"></script>
 </head>
 <body>
     <header class>
-    <div class="nav">
-        <div class="logo">
+        <div class="nav">
+            
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
+          
+          <button class="openbtn" onclick="openNav()">&#9776; </button>
+
+    
+        <span class="logo">
             <a href="https://www.centone.com.tr/">
                 <img width="230" height="60" src="./media/logo.png" alt="logoCentone">
             </a>
-        </div>
+        </span>
         <div class="menu">
             <!-- как уменьшить цвет бэкграунда в высоте? -->
             <div class="search">
@@ -81,6 +95,8 @@
     </div>
         </div>
     </header>
+    
+    </div>
     <div class="baner">
         <center>
         <div>
@@ -132,7 +148,7 @@
             <div class="box1">
                 <a href="#" class="row-baner">
                     <div class="image">
-                        <img src="./media/rowmenu-triko.jpeg" alt="" width="368" height="368">
+                        <img src="./media/rowmenu-triko.jpeg" alt="" >
                     </div>
                 </a>
             </div>
